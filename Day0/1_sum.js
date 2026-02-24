@@ -1,6 +1,7 @@
-let a = 10;
-let b = 20;
+function sum(a, b)
+{
+    console.log(a + b);
+}
 
-let sum = a + b;
-
-console.log(sum)
+sum(5, 3); // Outputs 8
+sum(10, 20); // Outputs 30

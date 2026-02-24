@@ -1,10 +1,15 @@
-let word = "JavaScript";
-let newWord = "";
-
-let i = word.length - 1;
-for (; i >= 0; i--)
+function reverseString(word)
 {
-    newWord = newWord + word[i];
+    let newWord = "";
+
+    let i = word.length - 1;
+    for (; i >= 0; i--)
+    {
+        newWord = newWord + word[i];
+    }
+
+    console.log(newWord);
 }
 
-console.log(newWord);
+reverseString("hello"); // Outputs "olleh"
+reverseString("JavaScript"); // Outputs "tpircSavaJ"
