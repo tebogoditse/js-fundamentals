@@ -1,14 +1,17 @@
 function reverseString(word)
 {
-    let newWord = "";
+    let original = word.trim();
+    let reverse = [];
 
-    let i = word.length - 1;
-    for (; i >= 0; i--)
+    let i = 0;
+    for (; i < original.length; i++)
     {
-        newWord = newWord + word[i];
+        reverse.unshift(original[i]);
     }
 
-    console.log(newWord);
+    let reversedStr = reverse.join("");
+
+    console.log(reversedStr);
 }
 
 reverseString("hello"); // Outputs "olleh"
