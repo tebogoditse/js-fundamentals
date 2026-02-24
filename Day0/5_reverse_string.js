@@ -15,4 +15,5 @@ function reverseString(word)
 }
 
 reverseString("hello"); // Outputs "olleh"
+reverseString("    hello  "); // Outputs "olleh"
 reverseString("JavaScript"); // Outputs "tpircSavaJ"
