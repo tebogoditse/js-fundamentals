@@ -14,5 +14,5 @@ function removeDuplicates(arr)
     console.log(newArr);
 }
 
-removeDuplicates([1, 2, 2, 3, 4, 4, 5]); // Output: [1, 2, 3, 4, 5]
-removeDuplicates([5, 5, 5, 1, 1]); // Output: [5, 1]
+removeDuplicates([1, 2, 2, 3, 4, 4, 5]);  // Output: [1, 2, 3, 4, 5]
+removeDuplicates([5, 5, 5, 1, 1]);  // Output: [5, 1]
